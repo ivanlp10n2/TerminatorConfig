@@ -1,0 +1,59 @@
+[global_config]
+[keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Alt>bracketright
+  line_down = <Primary>Down
+  line_up = <Primary>Up
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = b2dedcdd-83ff-4741-bdeb-c7f2798a8fc2
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 1920:0
+      size = 1920, 1052
+      title = empanada@capitan-empanada: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 524
+      ratio = 0.500477554919
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 958
+      ratio = 0.500261096606
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      title = somethin
+      type = Terminal
+      uuid = b2dedcdd-83ff-4741-bdeb-c7f2798a8fc2
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 58fe37aa-64b0-4c35-9dcc-aa943e51319b
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 5ab9dc1d-b4e6-4478-9095-a1660b3233fa
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+  [[EmpanadaTerminator]]
+    cursor_color = "#aaaaaa"
